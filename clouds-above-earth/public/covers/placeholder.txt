@@ -1,0 +1,5 @@
+Put your cover images here (jpg/png). Example filenames used in the app:
+- cosmic.jpg
+- rainy.jpg
+- night.jpg
+- 1.jpg ... 6.jpg

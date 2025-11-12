@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #__next {
+  height: 100%;
+  background: #09090B;
+}
+
+/* Subtle starfield */
+.canvas-starfield {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.glass {
+  background: rgba(15, 15, 20, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(79,255,212,0.2);
+}
